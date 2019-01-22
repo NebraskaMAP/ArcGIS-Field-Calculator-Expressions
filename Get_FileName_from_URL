@@ -1,0 +1,2 @@
+#  this expression can be used to extract the file name from a field that contains a URL string
+!field!.split('\\')[-1]
